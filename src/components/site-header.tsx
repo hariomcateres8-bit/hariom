@@ -52,8 +52,8 @@ const [scrolled, setScrolled] = useState(false);
   // };
   const handleCatalogDownload = () => {
     const link = document.createElement("a");
-    link.href = "/pdf/Hariom-Master-Menu-Catalog.pdf";
-    link.download = "Hariom-Master-Menu-Catalog.pdf";
+    link.href = "/pdf/catelog.pdf";
+    link.download = "catelog.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
